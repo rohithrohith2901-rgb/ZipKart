@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ZipKart 🛒
 
 A modern, production-ready online grocery shopping frontend built with **Next.js 15**, **Tailwind CSS v4**, and **Framer Motion**.
@@ -44,3 +45,6 @@ A modern, production-ready online grocery shopping frontend built with **Next.js
 - `src/context`: Global state (CartContext).
 - `src/data`: Mock product data.
 - `src/lib`: Utilities (clsx/tailwind-merge).
+=======
+# ZipKart
+>>>>>>> c78c030c0d821e4797c8956e6956427936b27ea3
