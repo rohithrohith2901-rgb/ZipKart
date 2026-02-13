@@ -1,0 +1,281 @@
+[
+    {
+        "id": "16",
+        "name": "Fresh Apple (Kashmir)",
+        "price": 159,
+        "originalPrice": 199,
+        "weight": "1 kg",
+        "image": "/images/products/16.webp",
+        "category": "Fruits & Vegetables"
+    },
+    {
+        "id": "21",
+        "name": "Organic Cucumber",
+        "price": 39,
+        "originalPrice": 49,
+        "weight": "500 g",
+        "image": "/images/products/21.webp",
+        "category": "Fruits & Vegetables"
+    },
+    {
+        "id": "30",
+        "name": "Kiwi (Green)",
+        "price": 99,
+        "originalPrice": 129,
+        "weight": "3 pcs",
+        "image": "/images/products/30.webp",
+        "category": "Fruits & Vegetables"
+    },
+    {
+        "id": "31",
+        "name": "Lemon (Nimbu)",
+        "price": 25,
+        "originalPrice": 35,
+        "weight": "200 g",
+        "image": "/images/products/31.webp",
+        "category": "Fruits & Vegetables"
+    },
+    {
+        "id": "35",
+        "name": "Potatoes (New Crop)",
+        "price": 45,
+        "originalPrice": 60,
+        "weight": "2 kg",
+        "image": "/images/products/35.webp",
+        "category": "Fruits & Vegetables"
+    },
+    {
+        "id": "37",
+        "name": "Red Onions",
+        "price": 38,
+        "originalPrice": 50,
+        "weight": "1 kg",
+        "image": "/images/products/37.webp",
+        "category": "Fruits & Vegetables"
+    },
+    {
+        "id": "40",
+        "name": "Fresh Strawberry Box",
+        "price": 189,
+        "originalPrice": 250,
+        "weight": "250 g",
+        "image": "/images/products/40.webp",
+        "category": "Fruits & Vegetables"
+    },
+    {
+        "id": "25",
+        "name": "Green Bell Pepper",
+        "price": 65,
+        "originalPrice": 85,
+        "weight": "500 g",
+        "image": "/images/products/25.webp",
+        "category": "Fruits & Vegetables"
+    },
+    {
+        "id": "32",
+        "name": "Fresh Milk (Toned)",
+        "price": 72,
+        "originalPrice": 75,
+        "weight": "1 L",
+        "image": "/images/products/32.webp",
+        "category": "Dairy, Bread & Eggs"
+    },
+    {
+        "id": "23",
+        "name": "Farm Fresh Eggs",
+        "price": 89,
+        "originalPrice": 110,
+        "weight": "6 pcs",
+        "image": "/images/products/23.webp",
+        "category": "Dairy, Bread & Eggs"
+    },
+    {
+        "id": "28",
+        "name": "Ice Cream Tub",
+        "price": 250,
+        "originalPrice": 300,
+        "weight": "750 ml",
+        "image": "/images/products/28.webp",
+        "category": "Snacks & Munchies"
+    },
+    {
+        "id": "29",
+        "name": "Orange Juice",
+        "price": 145,
+        "originalPrice": 180,
+        "weight": "1 L",
+        "image": "/images/products/29.webp",
+        "category": "Cold Drinks"
+    },
+    {
+        "id": "39",
+        "name": "Cola Soft Drink",
+        "price": 55,
+        "originalPrice": 60,
+        "weight": "750 ml",
+        "image": "/images/products/39.webp",
+        "category": "Cold Drinks"
+    },
+    {
+        "id": "42",
+        "name": "Mineral Water Bottle",
+        "price": 20,
+        "originalPrice": 20,
+        "weight": "1 L",
+        "image": "/images/products/42.webp",
+        "category": "Cold Drinks"
+    },
+    {
+        "id": "41",
+        "name": "Tissue Paper Box",
+        "price": 85,
+        "originalPrice": 110,
+        "weight": "100 pulls",
+        "image": "/images/products/41.webp",
+        "category": "Household Needs"
+    },
+    {
+        "id": "59",
+        "name": "Glass Set (Transparent)",
+        "price": 299,
+        "originalPrice": 499,
+        "weight": "6 pcs",
+        "image": "/images/products/59.webp",
+        "category": "Household Needs"
+    },
+    {
+        "id": "53",
+        "name": "Chopping Board",
+        "price": 349,
+        "originalPrice": 599,
+        "weight": "1 unit",
+        "image": "/images/products/53.webp",
+        "category": "Household Needs"
+    },
+    {
+        "id": "1",
+        "name": "Mascara Lash Princess",
+        "price": 399,
+        "originalPrice": 599,
+        "weight": "1 unit",
+        "image": "/images/products/1.webp",
+        "category": "Personal Care"
+    },
+    {
+        "id": "5",
+        "name": "Red Nail Polish",
+        "price": 149,
+        "originalPrice": 299,
+        "weight": "10 ml",
+        "image": "/images/products/5.webp",
+        "category": "Personal Care"
+    },
+    {
+        "id": "4",
+        "name": "Classic Red Lipstick",
+        "price": 299,
+        "originalPrice": 499,
+        "weight": "1 unit",
+        "image": "/images/products/4.webp",
+        "category": "Personal Care"
+    },
+    {
+        "id": "201",
+        "name": "Organic Bananas",
+        "price": 60,
+        "originalPrice": 80,
+        "weight": "1 dozen",
+        "image": "/images/products/201.jpg",
+        "category": "Fruits & Vegetables"
+    },
+    {
+        "id": "202",
+        "name": "Fresh Spinach",
+        "price": 30,
+        "originalPrice": 45,
+        "weight": "250g",
+        "image": "https://images.unsplash.com/photo-1576045057995-568f588f8d31?w=500&auto=format&fit=crop&q=60",
+        "category": "Fruits & Vegetables"
+    },
+    {
+        "id": "203",
+        "name": "Brown Bread",
+        "price": 45,
+        "originalPrice": 50,
+        "weight": "400g",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088b7283?w=500&auto=format&fit=crop&q=60",
+        "category": "Dairy, Bread & Eggs"
+    },
+    {
+        "id": "204",
+        "name": "Paneer (Cottage Cheese)",
+        "price": 95,
+        "originalPrice": 110,
+        "weight": "200g",
+        "image": "/images/products/204.jpg",
+        "category": "Dairy, Bread & Eggs"
+    },
+    {
+        "id": "205",
+        "name": "Potato Chips (Salted)",
+        "price": 20,
+        "originalPrice": 25,
+        "weight": "50g",
+        "image": "/images/products/205.jpg",
+        "category": "Snacks & Munchies"
+    },
+    {
+        "id": "206",
+        "name": "Chocolate Bar",
+        "price": 50,
+        "originalPrice": 60,
+        "weight": "80g",
+        "image": "https://images.unsplash.com/photo-1606312619070-d48b7065e44e?w=500&auto=format&fit=crop&q=60",
+        "category": "Snacks & Munchies"
+    },
+    {
+        "id": "207",
+        "name": "Energy Drink",
+        "price": 110,
+        "originalPrice": 125,
+        "weight": "250ml",
+        "image": "https://images.unsplash.com/photo-1622543925917-06046109a1c3?w=500&auto=format&fit=crop&q=60",
+        "category": "Cold Drinks"
+    },
+    {
+        "id": "208",
+        "name": "Floor Cleaner",
+        "price": 180,
+        "originalPrice": 210,
+        "weight": "1L",
+        "image": "https://images.unsplash.com/photo-1585838268838-8fbf9ca28355?w=500&auto=format&fit=crop&q=60",
+        "category": "Household Needs"
+    },
+    {
+        "id": "209",
+        "name": "Dishwashing Liquid",
+        "price": 105,
+        "originalPrice": 120,
+        "weight": "500ml",
+        "image": "https://images.unsplash.com/photo-1528740561666-dc24705f08a7?w=500&auto=format&fit=crop&q=60",
+        "category": "Household Needs"
+    },
+    {
+        "id": "210",
+        "name": "Face Wash",
+        "price": 150,
+        "originalPrice": 199,
+        "weight": "100ml",
+        "image": "https://images.unsplash.com/photo-1556228720-1957be83f315?w=500&auto=format&fit=crop&q=60",
+        "category": "Personal Care"
+    },
+    {
+        "id": "211",
+        "name": "Shampoo",
+        "price": 240,
+        "originalPrice": 310,
+        "weight": "340ml",
+        "image": "/images/products/211.jpg",
+        "category": "Personal Care"
+    }
+]
