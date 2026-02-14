@@ -26,7 +26,7 @@ export default function Navbar({ onSearch }: { onSearch?: (query: string) => voi
 
                     {/* Brand */}
                     <Link href="/" className="flex items-center gap-2 group shrink-0">
-                        <div className="relative w-54 sm:w-32 md:w-36 h-8 sm:h-10 transition-transform active:scale-95">
+                        <div className="relative w-32 sm:w-36 h-8 sm:h-10 transition-transform active:scale-95">
                             <Image
                                 src="/images/zipkart_logo.png"
                                 alt="ZipKart"

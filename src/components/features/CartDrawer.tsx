@@ -4,6 +4,7 @@ import { X, Minus, Plus, ShoppingBag, Trash2 } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function CartDrawer() {
     const {
@@ -17,6 +18,8 @@ export default function CartDrawer() {
         open,
         setOpen,
     } = useCart();
+
+    const router = useRouter();
 
     const totalItems = items.reduce((acc, item) => acc + item.quantity, 0);
 
@@ -170,7 +173,13 @@ export default function CartDrawer() {
                         {/* Footer Actions */}
                         {items.length > 0 && (
                             <div className="p-5 bg-white border-t border-gray-100 shadow-[0_-5px_20px_-10px_rgba(0,0,0,0.1)] z-50">
-                                <button className="w-full bg-zip-green hover:bg-zip-green-dark text-white font-bold py-4 rounded-2xl shadow-xl shadow-zip-green/30 active:scale-[0.98] transition-all flex items-center justify-between px-6 group">
+                                <button
+                                    onClick={() => {
+                                        setOpen(false);
+                                        router.push("/payment");
+                                    }}
+                                    className="w-full bg-zip-green hover:bg-zip-green-dark text-white font-bold py-4 rounded-2xl shadow-xl shadow-zip-green/30 active:scale-[0.98] transition-all flex items-center justify-between px-6 group"
+                                >
                                     <div className="flex flex-col items-start leading-none">
                                         <span className="text-[10px] font-medium opacity-80 uppercase tracking-widest mb-1">Total to Pay</span>
                                         <span className="text-xl">₹{total}</span>

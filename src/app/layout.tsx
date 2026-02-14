@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${outfit.variable} antialiased bg-zip-gray text-zip-dark`}
+        className={`${inter.variable} ${outfit.variable} antialiased bg-zip-gray text-zip-dark overflow-x-hidden`}
       >
         <CartProvider>
           {children}

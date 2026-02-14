@@ -109,7 +109,7 @@ export default function HomePage() {
             className="relative hidden md:block w-[350px] h-[350px] lg:w-[450px] lg:h-[450px] z-10"
           >
             <Image
-              src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80"
+              src="/images/hero_main.jpg"
               alt="Grocery Delivery"
               fill
               className="object-cover rounded-3xl shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500 border-4 border-white/20"
@@ -137,7 +137,7 @@ export default function HomePage() {
             >
               <div className="relative w-14 h-14 bg-orange-50 rounded-xl overflow-hidden mb-1">
                 <Image
-                  src="https://images.unsplash.com/photo-1615485925694-a039166d8b71?auto=format&fit=crop&q=80&w=200"
+                  src="/images/hero_badge.jpg"
                   alt="Fresh Fruit"
                   fill
                   className="object-cover"

@@ -12,7 +12,7 @@ export default function ProductCard({ product }: { product: Product }) {
     const qty = cartItem ? cartItem.quantity : 0;
 
     return (
-        <div className="group bg-white rounded-3xl p-3 sm:p-4 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] transition-all duration-300 border border-gray-100/50 hover:border-gray-200 flex flex-col items-center justify-between sm:relative overflow-hidden h-full">
+        <div className="group bg-white rounded-3xl p-3 sm:p-4 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] transition-all duration-300 border border-gray-100/50 hover:border-gray-200 flex flex-col items-center justify-between relative overflow-hidden h-full">
 
             {/* Discount Badge */}
             {product.originalPrice > product.price && (
@@ -43,37 +43,37 @@ export default function ProductCard({ product }: { product: Product }) {
                     {product.weight}
                 </span>
 
-                <div className="flex items-end justify-between mt-4 w-full">
+                <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between mt-2 sm:mt-4 w-full gap-2 sm:gap-0">
                     <div className="flex flex-col">
-                        <span className="text-xs text-gray-400 line-through font-medium">₹{product.originalPrice}</span>
-                        <span className="text-lg sm:text-xl font-black text-zip-dark leading-none">₹{product.price}</span>
+                        <span className="text-[10px] sm:text-xs text-gray-400 line-through font-medium">₹{product.originalPrice}</span>
+                        <span className="text-base sm:text-xl font-black text-zip-dark leading-none">₹{product.price}</span>
                     </div>
 
                     {/* Add Button / Qty Control */}
-                    <div className="relative z-20">
+                    <div className="relative z-20 w-full sm:w-auto">
                         {qty === 0 ? (
                             <button
                                 onClick={() => addToCart(product)}
-                                className="bg-zip-green/5 border border-zip-green text-zip-green font-bold text-xs sm:text-sm px-4 py-1.5 rounded-xl shadow-sm hover:bg-zip-green hover:text-white transition-all active:scale-95 flex items-center gap-1 group/btn overflow-hidden"
+                                className="w-full sm:w-auto justify-center bg-zip-green/5 border border-zip-green text-zip-green font-bold text-xs sm:text-sm px-3 py-1.5 rounded-xl shadow-sm hover:bg-zip-green hover:text-white transition-all active:scale-95 flex items-center gap-1 group/btn overflow-hidden"
                             >
-                                ADD <Plus className="w-4 h-4 group-hover/btn:rotate-90 transition-transform" />
+                                ADD <Plus className="w-3 h-3 sm:w-4 sm:h-4 group-hover/btn:rotate-90 transition-transform" />
                             </button>
                         ) : (
-                            <div className="flex items-center bg-zip-green rounded-xl overflow-hidden shadow-lg shadow-zip-green/30 transform scale-100 transition-transform">
+                            <div className="flex items-center w-full sm:w-auto justify-between sm:justify-start bg-zip-green rounded-xl overflow-hidden shadow-lg shadow-zip-green/30 transform scale-100 transition-transform">
                                 <button
                                     onClick={() => updateQuantity(product.id, qty - 1)}
-                                    className="w-8 h-8 flex items-center justify-center text-white hover:bg-black/10 active:bg-black/20 transition-colors"
+                                    className="w-8 h-8 sm:w-8 sm:h-8 flex items-center justify-center text-white hover:bg-black/10 active:bg-black/20 transition-colors"
                                 >
-                                    <Minus className="h-4 w-4" />
+                                    <Minus className="h-3 w-3 sm:h-4 sm:w-4" />
                                 </button>
-                                <span className="w-6 h-8 flex items-center justify-center bg-zip-green text-white text-sm font-bold">
+                                <span className="flex-1 sm:flex-none w-auto sm:w-6 h-8 flex items-center justify-center bg-zip-green text-white text-xs sm:text-sm font-bold">
                                     {qty}
                                 </span>
                                 <button
                                     onClick={() => updateQuantity(product.id, qty + 1)}
-                                    className="w-8 h-8 flex items-center justify-center text-white hover:bg-black/10 active:bg-black/20 transition-colors"
+                                    className="w-8 h-8 sm:w-8 sm:h-8 flex items-center justify-center text-white hover:bg-black/10 active:bg-black/20 transition-colors"
                                 >
-                                    <Plus className="h-4 w-4" />
+                                    <Plus className="h-3 w-3 sm:h-4 sm:w-4" />
                                 </button>
                             </div>
                         )}

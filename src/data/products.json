@@ -194,7 +194,7 @@
         "price": 30,
         "originalPrice": 45,
         "weight": "250g",
-        "image": "https://images.unsplash.com/photo-1576045057995-568f588f8d31?w=500&auto=format&fit=crop&q=60",
+        "image": "/images/products/202.jpg",
         "category": "Fruits & Vegetables"
     },
     {
@@ -203,7 +203,7 @@
         "price": 45,
         "originalPrice": 50,
         "weight": "400g",
-        "image": "https://images.unsplash.com/photo-1509440159596-0249088b7283?w=500&auto=format&fit=crop&q=60",
+        "image": "/images/products/203.jpg",
         "category": "Dairy, Bread & Eggs"
     },
     {
@@ -230,7 +230,7 @@
         "price": 50,
         "originalPrice": 60,
         "weight": "80g",
-        "image": "https://images.unsplash.com/photo-1606312619070-d48b7065e44e?w=500&auto=format&fit=crop&q=60",
+        "image": "/images/products/206.jpg",
         "category": "Snacks & Munchies"
     },
     {
@@ -239,7 +239,7 @@
         "price": 110,
         "originalPrice": 125,
         "weight": "250ml",
-        "image": "https://images.unsplash.com/photo-1622543925917-06046109a1c3?w=500&auto=format&fit=crop&q=60",
+        "image": "/images/products/207.jpg",
         "category": "Cold Drinks"
     },
     {
@@ -248,7 +248,7 @@
         "price": 180,
         "originalPrice": 210,
         "weight": "1L",
-        "image": "https://images.unsplash.com/photo-1585838268838-8fbf9ca28355?w=500&auto=format&fit=crop&q=60",
+        "image": "/images/products/208.jpg",
         "category": "Household Needs"
     },
     {
@@ -257,7 +257,7 @@
         "price": 105,
         "originalPrice": 120,
         "weight": "500ml",
-        "image": "https://images.unsplash.com/photo-1528740561666-dc24705f08a7?w=500&auto=format&fit=crop&q=60",
+        "image": "/images/products/209.jpg",
         "category": "Household Needs"
     },
     {
@@ -266,7 +266,7 @@
         "price": 150,
         "originalPrice": 199,
         "weight": "100ml",
-        "image": "https://images.unsplash.com/photo-1556228720-1957be83f315?w=500&auto=format&fit=crop&q=60",
+        "image": "/images/products/210.jpg",
         "category": "Personal Care"
     },
     {
